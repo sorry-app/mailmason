@@ -5,6 +5,8 @@
     background-color: $c-gray-400;
     margin-bottom: 1.1875em;
 
+    &--yellow { background-color: $c-yellow; }
+    &--orange { background-color: $c-orange; }
     &--green { background-color: $c-green; }
     &--red { background-color: $c-red; }
     &--blue { background-color: $c-blue; }

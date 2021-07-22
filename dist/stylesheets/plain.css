@@ -207,6 +207,10 @@ p.sub {
   width: 80px;
   background-color: #9CA3AF;
   margin-bottom: 1.1875em; }
+  .line--yellow {
+    background-color: #FBBF24; }
+  .line--orange {
+    background-color: #F97316; }
   .line--green {
     background-color: #059669; }
   .line--red {
