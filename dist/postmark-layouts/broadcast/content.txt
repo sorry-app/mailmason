@@ -4,4 +4,4 @@ Sorry™ ( https://www.sorryapp.com )
 
 {{{ @content }}}
 
-© 2021 Sorry™. All rights reserved.
+Powered by Sorry™ ( https://www.sorryapp.com )
