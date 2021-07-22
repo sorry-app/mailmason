@@ -7,7 +7,7 @@ body {
   -webkit-text-size-adjust: none; }
 
 a {
-  color: #3869D4; }
+  color: #0284C7; }
   a img {
     border: none; }
 
@@ -31,21 +31,21 @@ body, td, th {
 
 h1 {
   margin-top: 0;
-  color: #333333;
+  color: #111827;
   font-size: 22px;
   font-weight: bold;
   text-align: left; }
 
 h2 {
   margin-top: 0;
-  color: #333333;
+  color: #111827;
   font-size: 16px;
   font-weight: bold;
   text-align: left; }
 
 h3 {
   margin-top: 0;
-  color: #333333;
+  color: #111827;
   font-size: 14px;
   font-weight: bold;
   text-align: left; }
@@ -73,11 +73,11 @@ p.sub {
 
 /* Buttons ------------------------------ */
 .button {
-  background-color: #3869D4;
-  border-top: 10px solid #3869D4;
-  border-right: 18px solid #3869D4;
-  border-bottom: 10px solid #3869D4;
-  border-left: 18px solid #3869D4;
+  background-color: #0284C7;
+  border-top: 10px solid #0284C7;
+  border-right: 18px solid #0284C7;
+  border-bottom: 10px solid #0284C7;
+  border-left: 18px solid #0284C7;
   display: inline-block;
   color: #FFF;
   text-decoration: none;
@@ -86,17 +86,17 @@ p.sub {
   -webkit-text-size-adjust: none;
   box-sizing: border-box; }
   .button--green {
-    background-color: #22BC66;
-    border-top: 10px solid #22BC66;
-    border-right: 18px solid #22BC66;
-    border-bottom: 10px solid #22BC66;
-    border-left: 18px solid #22BC66; }
+    background-color: #059669;
+    border-top: 10px solid #059669;
+    border-right: 18px solid #059669;
+    border-bottom: 10px solid #059669;
+    border-left: 18px solid #059669; }
   .button--red {
-    background-color: #FF6136;
-    border-top: 10px solid #FF6136;
-    border-right: 18px solid #FF6136;
-    border-bottom: 10px solid #FF6136;
-    border-left: 18px solid #FF6136; }
+    background-color: #DC2626;
+    border-top: 10px solid #DC2626;
+    border-right: 18px solid #DC2626;
+    border-bottom: 10px solid #DC2626;
+    border-left: 18px solid #DC2626; }
 
 @media only screen and (max-width: 500px) {
   .button {
@@ -107,7 +107,7 @@ p.sub {
 .attributes {
   margin: 0 0 21px; }
   .attributes_content {
-    background-color: #F4F4F7;
+    background-color: #F9FAFB;
     padding: 16px; }
   .attributes_item {
     padding: 0; }
@@ -122,7 +122,7 @@ p.sub {
   -premailer-cellspacing: 0; }
   .related_item {
     padding: 10px 0;
-    color: #CBCCCF;
+    color: #F3F4F6;
     font-size: 15px;
     line-height: 18px; }
   .related_item-title {
@@ -132,7 +132,7 @@ p.sub {
     display: block;
     padding-bottom: 10px; }
   .related_heading {
-    border-top: 1px solid #CBCCCF;
+    border-top: 1px solid #F3F4F6;
     text-align: center;
     padding: 25px 0 10px; }
 
@@ -144,8 +144,8 @@ p.sub {
   -premailer-width: 100%;
   -premailer-cellpadding: 0;
   -premailer-cellspacing: 0;
-  background-color: #F4F4F7;
-  border: 2px dashed #CBCCCF; }
+  background-color: #F9FAFB;
+  border: 2px dashed #F3F4F6; }
   .discount_heading {
     text-align: center; }
   .discount_body {
@@ -180,36 +180,36 @@ p.sub {
     -premailer-cellspacing: 0; }
   .purchase_item {
     padding: 10px 0;
-    color: #51545E;
+    color: #6B7280;
     font-size: 15px;
     line-height: 18px; }
   .purchase_heading {
     padding-bottom: 8px;
-    border-bottom: 1px solid #EAEAEC; }
+    border-bottom: 1px solid #F9FAFB; }
     .purchase_heading p {
       margin: 0;
-      color: #85878E;
+      color: #D1D5DB;
       font-size: 12px; }
   .purchase_footer {
     padding-top: 15px;
-    border-top: 1px solid #EAEAEC; }
+    border-top: 1px solid #F9FAFB; }
   .purchase_total {
     margin: 0;
     text-align: right;
     font-weight: bold;
-    color: #333333; }
+    color: #111827; }
     .purchase_total--label {
       padding: 0 15px 0 0; }
 
 body {
-  background-color: #F4F4F7;
-  color: #51545E; }
+  background-color: #F9FAFB;
+  color: #6B7280; }
 
 p {
-  color: #51545E; }
+  color: #6B7280; }
 
 p.sub {
-  color: #6B6E76; }
+  color: #9CA3AF; }
 
 .email-wrapper {
   width: 100%;
@@ -218,7 +218,7 @@ p.sub {
   -premailer-width: 100%;
   -premailer-cellpadding: 0;
   -premailer-cellspacing: 0;
-  background-color: #F4F4F7; }
+  background-color: #F9FAFB; }
 
 .email-content {
   width: 100%;
@@ -237,7 +237,7 @@ p.sub {
   .email-masthead_name {
     font-size: 16px;
     font-weight: bold;
-    color: #A8AAAF;
+    color: #E5E7EB;
     text-decoration: none;
     text-shadow: 0 1px 0 white; }
 
@@ -268,7 +268,7 @@ p.sub {
   -premailer-cellspacing: 0;
   text-align: center; }
   .email-footer p {
-    color: #6B6E76; }
+    color: #9CA3AF; }
 
 .body-action {
   width: 100%;
@@ -282,7 +282,7 @@ p.sub {
 .body-sub {
   margin-top: 25px;
   padding-top: 25px;
-  border-top: 1px solid #EAEAEC; }
+  border-top: 1px solid #F9FAFB; }
 
 .content-cell {
   padding: 35px; }
@@ -301,7 +301,7 @@ p.sub {
   .email-wrapper,
   .email-masthead,
   .email-footer {
-    background-color: #333333 !important;
+    background-color: #111827 !important;
     color: #FFF !important; }
   p,
   ul,
