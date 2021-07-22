@@ -1,1 +1,20 @@
+*****************************************
+[Investigating] CWA Policy and Scan Issue
+*****************************************
 
+We are aware of CWA customers experiencing the following issues:
+
+* Policies and Scan profiles not visible on UI
+* CWA Scans not working
+
+Please note that all other aspects of our Cloud Workload Assurance service remain functional. We are investigating this issue and will provide an update as soon as more information becomes available.
+
+Posted 28 days ago. Jun 24, 2021 - 12:48 UTC
+
+--------------------
+Affected Components:
+--------------------
+
+* Cloud Workload Protection (Cloud Workload Assurance).
+
+View the full incident< →
