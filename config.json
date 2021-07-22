@@ -1,0 +1,36 @@
+{
+  "postmark": {
+    "from": "development@sorryapp.com",
+    "to": "robert+mailmason@sorryapp.com",
+    "subject": "MailMason Test"
+  },
+  "strings": {
+    "sender_name": "MailMason @ Sorry™",
+    "product_name": "Sorry™",
+    "product_url": "https://www.sorryapp.com",
+    "credit_card_statement_name": "SorryApp LTD",
+    "formal_company_name": "SorryApp LTD",
+    "address_line_1": "Mclarens Penhurst House",
+    "address_line_2": "352-6 Battersea Park Road",
+    "city": "London",
+    "state": "Greater London",
+    "country": "United Kingdom",
+    "phone": "+44 (0) 1273 917 517",
+    "litmus_email": ""
+  },
+  "images": {
+    "use_images": false,
+    "images_url": "https://example.com/example/images/",
+    "logo_file": "logo.png",
+    "logo_width": "186",
+    "use_social_circles": false,
+    "twitter_url": "",
+    "facebook_url": "",
+    "pinterest_url": "",
+    "instagram_url": "",
+    "google_plus_url": "",
+    "youtube_url": "",
+    "linkedin_url": "",
+    "dribbble_url": ""
+  }
+}
