@@ -1,0 +1,13 @@
+.line {
+    display: block;
+    height: 4px;
+    width: 80px;
+    background-color: $c-gray-300;
+    margin-bottom: 1.1875em;
+}
+
+@media (prefers-color-scheme: dark) {
+    .line {
+        background-color: $c-gray-400 !important;
+    }
+}

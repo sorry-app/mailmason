@@ -280,6 +280,20 @@
       padding: 0 15px 0 0;
     }
     
+    .line {
+      display: block;
+      height: 4px;
+      width: 80px;
+      background-color: #D1D5DB;
+      margin-bottom: 1.1875em;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .line {
+        background-color: #9CA3AF !important;
+      }
+    }
+    
     body {
       background-color: #F9FAFB;
       color: #6B7280;
@@ -481,6 +495,7 @@
                   <tr>
                     <td class="content-cell" style="word-break: break-word; font-family: &quot;Inter&quot;, sans-serif; font-size: 16px; padding: 35px;">
                       <div class="f-fallback">
+                        <div class="line line-investigating" style="display: block; height: 4px; width: 80px; background-color: #D1D5DB; margin-bottom: 1.1875em;"></div>
                         <h1 style="margin-top: 0; color: #111827; font-size: 22px; font-weight: bold; text-align: left;" align="left">[Investigating] CWA Policy and Scan Issue</h1>
                         <p style="font-size: 16px; line-height: 1.625; color: #6B7280; margin: .4em 0 1.1875em;">We are aware of CWA customers experiencing the following issues:</p>
                         <ul style="font-size: 16px; line-height: 1.625; margin: .4em 0 1.1875em;">
