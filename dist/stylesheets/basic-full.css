@@ -59,8 +59,7 @@ p, ul, ol, blockquote {
   line-height: 1.625; }
 
 p.sub {
-  font-size: 13px;
-  opacity: .6; }
+  font-size: 13px; }
 
 /* Utilities ------------------------------ */
 .align-right {
@@ -303,7 +302,7 @@ p.sub {
   .email-masthead,
   .email-footer {
     background-color: #111827 !important;
-    color: #FFF !important; }
+    color: #F3F4F6 !important; }
   p,
   ul,
   ol,
@@ -313,10 +312,12 @@ p.sub {
   h3,
   span,
   .purchase_item {
-    color: #FFF !important; }
+    color: #F3F4F6 !important; }
+  p.sub {
+    color: #9CA3AF !important; }
   .attributes_content,
   .discount {
-    background-color: #222 !important; }
+    background-color: #4B5563 !important; }
   .email-masthead_name {
     text-shadow: none !important; } }
 

@@ -59,8 +59,7 @@ p, ul, ol, blockquote {
   line-height: 1.625; }
 
 p.sub {
-  font-size: 13px;
-  opacity: .6; }
+  font-size: 13px; }
 
 /* Utilities ------------------------------ */
 .align-right {
