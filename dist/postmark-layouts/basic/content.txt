@@ -1,11 +1,13 @@
-[Product Name] ( https://example.com )
+{{#preheader}}{{.}}{{/preheader}}
+
+Sorry™ ( https://www.sorryapp.com )
 
 {{{ @content }}}
 
-© 2021 [Product Name]. All rights reserved.
+© 2021 Sorry™. All rights reserved.
 
-[Company Name, LLC]
+SorryApp LTD
 
-1234 Street Rd.
+Mclarens Penhurst House
 
-Suite 1234
+352-6 Battersea Park Road
