@@ -19,7 +19,9 @@ Posted 28 days ago. Jun 24, 2021 - 12:48 UTC
 Affected Components:
 --------------------
 
-* Cloud Workload Protection (Cloud Workload Assurance).
+* Symantec Endpoint Protection Mobile
+* Symantec Endpoint Security Complete
+* Cloud Workload Protection
 
 View the full incident → ( " style= )
 
