@@ -90,6 +90,20 @@
     p.sub {
       font-size: 13px;
     }
+    
+    .list.list-comma {
+      display: inline-block;
+      list-style: none;
+      padding: 0px;
+    }
+    
+    .list.list-comma li {
+      display: inline;
+    }
+    
+    .list.list-comma li:not(:last-child):after {
+      content: ", ";
+    }
     /* Utilities ------------------------------ */
     
     .align-right {

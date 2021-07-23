@@ -30,3 +30,18 @@ p.sub {
   font-size: 13px;
 }
 
+.list {
+  &.list-comma {
+    display: inline-block;
+    list-style: none;
+    padding: 0px;
+
+    li { 
+      display: inline; 
+      
+      &:not(:last-child):after {
+        content: ", ";
+      }
+    }
+  }
+}
