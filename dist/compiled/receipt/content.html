@@ -104,6 +104,19 @@
     .list.list-comma li:not(:last-child):after {
       content: ", ";
     }
+    
+    dl dt {
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+    
+    dl dd {
+      margin-left: 0;
+    }
+    
+    dl dd:not(:last-child) {
+      margin-bottom: 16px;
+    }
     /* Utilities ------------------------------ */
     
     .align-right {
@@ -418,6 +431,12 @@
     }
     
     .body-sub {
+      width: 570px;
+      margin: 0 auto;
+      padding: 0;
+      -premailer-width: 570px;
+      -premailer-cellpadding: 0;
+      -premailer-cellspacing: 0;
       margin-top: 25px;
       padding-top: 25px;
       border-top: 1px solid #D1D5DB;
@@ -601,7 +620,7 @@
                           </tr>
                         </table>
                         <!-- Sub copy -->
-                        <table class="body-sub" role="presentation" style="margin-top: 25px; padding-top: 25px; border-top-width: 1px; border-top-color: #D1D5DB; border-top-style: solid;">
+                        <table class="body-sub" role="presentation" style="width: 570px; -premailer-width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; border-top-width: 1px; border-top-color: #D1D5DB; border-top-style: solid; margin: 25px auto 0; padding: 25px 0 0;" width="570" cellpadding="0" cellspacing="0">
                           <tr>
                             <td style="word-break: break-word; font-family: &quot;Inter&quot;, sans-serif; font-size: 16px;">
                               <p class="f-fallback sub" style="font-size: 13px; line-height: 1.625; color: #6B7280; margin: .4em 0 1.1875em;"><strong>Need a printable copy for your records?</strong> You can <a href="{{action_url}}" style="color: #0284C7;">download a PDF version</a>.</p>
