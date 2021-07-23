@@ -7,7 +7,7 @@
   -premailer-cellspacing: $cellspacing;
 }
 
-@mixin heading($size: 22px) {
+@mixin heading($size: 24px) {
   margin-top: 0;
   color: $c-gray-900;
   font-size: $size;

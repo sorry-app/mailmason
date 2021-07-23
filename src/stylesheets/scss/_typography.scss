@@ -13,10 +13,10 @@ h1 {
   @include heading();
 }
 h2 {
-  @include heading($size: $f-base-size);
+  @include heading($size: 18px);
 }
 h3 {
-  @include heading($size: 14px);
+  @include heading($size: $f-base-size);
 }
 td, th {
   font-size: $f-base-size;
@@ -27,7 +27,7 @@ p, ul, ol, blockquote {
   line-height: 1.625;
 }
 p.sub {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .list {
