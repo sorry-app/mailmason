@@ -6,13 +6,13 @@
 
 body {
   background-color: $c-slate-40;
-  color: $c-slate-500;
+  color: $c-slate-600;
 }
 p {
-  color: $c-slate-500;
+  color: $c-slate-600;
 }
 p.sub {
-  color: $c-slate-400;
+  color: $c-slate-500;
 }
 
 .email-wrapper {
@@ -36,7 +36,7 @@ p.sub {
   &_name {
     font-size: 16px;
     font-weight: bold;
-    color: $c-slate-200;
+    color: $c-slate-400;
     text-decoration: none;
     text-shadow: 0 1px 0 rgba(255,255,255,1);
   }
@@ -71,7 +71,7 @@ p.sub {
 .body-sub {
   margin-top: 25px;
   padding-top: 25px;
-  border-top: 1px solid $c-slate-50;
+  border-top: 1px solid $c-slate-300;
 }
 .content-cell {
   padding: 35px;
@@ -119,6 +119,7 @@ p.sub {
     background-color: $c-gray-600 !important;
   }
   .email-masthead_name {
+    color: $c-slate-300 !important;
     text-shadow: none !important;
   }
 }
