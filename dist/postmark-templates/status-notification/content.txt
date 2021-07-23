@@ -28,6 +28,6 @@ Affected Components
 * Symantec Endpoint Security Complete
 * Cloud Workload Protection
 
-View the full incident →
+View the full incident → ( https://f7ea7fba.sorryapp.com/ )
 
-You received this email because you are subscribed to Broadcom's service status notifications. Change Preferences or Unsubscribe
+You received this email because you are subscribed to Broadcom's service status notifications. Change Preferences ( http://subscribe.sorryapp.com/f7ea7fba/email/6c41441d/unsubscribe ) or Unsubscribe ( http://subscribe.sorryapp.com/f7ea7fba/email/6c41441d/unsubscribe )
