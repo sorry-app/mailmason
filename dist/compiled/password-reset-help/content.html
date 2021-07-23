@@ -117,6 +117,20 @@
     dl dd:not(:last-child) {
       margin-bottom: 16px;
     }
+    
+    dl.horizontal dt {
+      float: left;
+      clear: left;
+      width: 120px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    
+    dl.horizontal dd {
+      margin-left: 130px;
+      margin-bottom: 8px;
+    }
     /* Utilities ------------------------------ */
     
     .align-right {

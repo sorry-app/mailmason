@@ -58,4 +58,20 @@ dl {
         margin-bottom: 16px;
     }
   }
+
+  &.horizontal {
+    dt {
+        float: left;
+        clear: left;
+        width: 120px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    dd {
+        margin-left: 130px;
+        margin-bottom: 8px;
+    }
+  }
 }
