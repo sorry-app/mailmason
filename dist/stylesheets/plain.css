@@ -67,10 +67,10 @@ p.sub {
   padding: 0px; }
   .list.list-components li {
     display: inline-block;
-    border: 1px solid #9CA3AF;
-    border-radius: 4px;
+    margin: 0 8px 8px 0;
     padding: 4px 8px;
-    margin: 0 8px 8px 0; }
+    border: 1px solid #9CA3AF;
+    border-radius: 4px; }
 
 dl {
   margin: .4em 0 1.1875em; }
