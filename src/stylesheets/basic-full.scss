@@ -123,6 +123,7 @@ p.sub {
     color: $c-slate-300 !important;
     text-shadow: none !important;
   }
+  .list.list-components li { border-color: $c-slate-600; }
 }
 
 :root {

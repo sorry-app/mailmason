@@ -31,17 +31,17 @@ p.sub {
 }
 
 .list {
-  &.list-comma {
+  &.list-components {
     display: inline-block;
     list-style: none;
     padding: 0px;
 
     li { 
-      display: inline; 
-      
-      &:not(:last-child):after {
-        content: ", ";
-      }
+      display: inline-block;
+      border: 1px solid $c-slate-400;
+      border-radius: 4px; 
+      padding: 4px 8px;
+      margin: 0 8px 8px 0;
     }
   }
 }

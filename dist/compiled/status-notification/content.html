@@ -91,18 +91,18 @@
       font-size: 14px;
     }
     
-    .list.list-comma {
+    .list.list-components {
       display: inline-block;
       list-style: none;
       padding: 0px;
     }
     
-    .list.list-comma li {
-      display: inline;
-    }
-    
-    .list.list-comma li:not(:last-child):after {
-      content: ", ";
+    .list.list-components li {
+      display: inline-block;
+      border: 1px solid #9CA3AF;
+      border-radius: 4px;
+      padding: 4px 8px;
+      margin: 0 8px 8px 0;
     }
     
     dl {
@@ -508,6 +508,9 @@
         color: #D1D5DB !important;
         text-shadow: none !important;
       }
+      .list.list-components li {
+        border-color: #4B5563;
+      }
     }
     
     :root {
@@ -570,9 +573,9 @@
                           <tr>
                             <td>
                               <h2>Affected Components</h2>
-                              <ul class="list list-comma">
-                                <li>Symantec Endpoint Protection Mobile</li>
-                                <li>Symantec Endpoint Security Complete</li>
+                              <ul class="list list-components">
+                                <li>Symantec</li>
+                                <li>Symantec Endpoint</li>
                                 <li>Cloud Workload Protection</li>
                               </ul>
                             </td>
