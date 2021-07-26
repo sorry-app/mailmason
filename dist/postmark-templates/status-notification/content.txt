@@ -1,13 +1,13 @@
-*****************************************
-[Investigating] CWA Policy and Scan Issue
-*****************************************
+********************************
+[Scheduled] Upcoming maintenance
+********************************
 
-We are aware of CWA customers experiencing the following issues:
+While we do not expect any service interruptions, we are running maintenance behind the scenes during this period. We'll keep you updated as things progress.
 
-* Policies and Scan profiles not visible on UI
-* CWA Scans not working
+* Database Performance Improvements
+* Network Secuerty Upgrades
 
-Please note that all other aspects of our Cloud Workload Assurance service remain functional. We are investigating this issue and will provide an update as soon as more information becomes available.
+Again, we don't expect any downtime, and hope to continue running services as normal.
 
 Posted 28 days ago. Jun 24, 2021 - 12:48 UTC
 
@@ -24,10 +24,10 @@ Duration:
 Affected Components
 -------------------
 
-* Symantec
-* Symantec Endpoint
-* Cloud Workload Protection
+* Application
+* Database
+* REST API
 
 View the full incident → ( https://f7ea7fba.sorryapp.com/ )
 
-You received this email because you are subscribed to Broadcom's service status notifications. Change Preferences ( http://subscribe.sorryapp.com/f7ea7fba/email/6c41441d/unsubscribe ) or Unsubscribe ( http://subscribe.sorryapp.com/f7ea7fba/email/6c41441d/unsubscribe )
+You received this email because you are subscribed to Example Inc's service status notifications. Change Preferences ( http://subscribe.sorryapp.com/f7ea7fba/email/6c41441d/unsubscribe ) or Unsubscribe ( http://subscribe.sorryapp.com/f7ea7fba/email/6c41441d/unsubscribe )
