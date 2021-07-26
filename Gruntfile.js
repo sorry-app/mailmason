@@ -167,15 +167,15 @@ module.exports = function(grunt) {
         preserveStyles: true,
         preserveStyleAttribute: true,
       },
-      genericHtml: {
-        files: [
-          {
-            expand: true,
-            src: [`${path.dist}compiled/**/*.html`],
-            dest: '',
-          },
-        ],
-      },
+//      genericHtml: {
+//        files: [
+//          {
+//            expand: true,
+//            src: [`${path.dist}compiled/**/*.html`],
+//            dest: '',
+//          },
+//        ],
+//      },
       txt: {
         options: {
           mode: 'txt',
@@ -442,7 +442,7 @@ module.exports = function(grunt) {
   grunt.registerTask('generic-templates', [
     'assemble:generic', // Compile handlebars templates to HTML
     'inline:generic', // Load external CSS into templates
-    //'premailer', // Inline CSS and generate text version
+    'premailer', // Inline CSS and generate text version
     'replace:variableSyntax', // Clean up variable syntax in text versions
     'replace:styleBlock', // Add properties to style block
     'prettify:generic', // Format HTML

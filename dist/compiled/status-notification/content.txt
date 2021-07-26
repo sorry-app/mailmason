@@ -1,0 +1,39 @@
+While we do not expect any service interruptions...
+
+Sorry™ ( https://www.sorryapp.com )
+
+********************************
+[Scheduled] Upcoming maintenance
+********************************
+
+While we do not expect any service interruptions, we are running maintenance behind the scenes during this period. We'll keep you updated as things progress.
+
+* Database Performance Improvements
+* Network Secuerty Upgrades
+
+Again, we don't expect any downtime, and hope to continue running services as normal.
+
+Posted 28 days ago. Jun 24, 2021 - 12:48 UTC
+
+--------
+Schedule
+--------
+
+Begins At:
+Jul 22, 21:00 UTC
+Duration:
+1 hour
+
+-------------------
+Affected Components
+-------------------
+
+* Application
+* Database
+* REST API
+
+View the full incident → ( https://f7ea7fba.sorryapp.com/ )
+
+You received this email because you are subscribed to Example Inc's service status notifications. Change Preferences ( http://subscribe.sorryapp.com/f7ea7fba/email/6c41441d/unsubscribe ) or Unsubscribe ( http://subscribe.sorryapp.com/f7ea7fba/email/6c41441d/unsubscribe )
+
+Powered by Sorry™ ( https://www.sorryapp.com )
