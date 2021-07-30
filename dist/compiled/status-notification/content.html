@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="x-apple-disable-message-reformatting" />
@@ -104,37 +104,6 @@
       border: 1px solid #9CA3AF;
       border-radius: 4px;
     }
-    
-    dl {
-      margin: .4em 0 1.1875em;
-    }
-    
-    dl dt {
-      font-weight: bold;
-      margin-bottom: 8px;
-    }
-    
-    dl dd {
-      margin-left: 0;
-    }
-    
-    dl dd:not(:last-child) {
-      margin-bottom: 16px;
-    }
-    
-    dl.horizontal dt {
-      float: left;
-      clear: left;
-      width: 100px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-    
-    dl.horizontal dd {
-      margin-left: 110px;
-      margin-bottom: 8px;
-    }
     /* Utilities ------------------------------ */
     
     .align-right {
@@ -205,6 +174,16 @@
     
     .attributes_item {
       padding: 0;
+      padding-bottom: 8px;
+    }
+    
+    .attributes_item.name {
+      white-space: nowrap;
+      padding-right: 32px;
+    }
+    
+    .attributes_item.description {
+      width: 100%;
     }
     /* Related Items ------------------------------ */
     
@@ -560,12 +539,22 @@
                           <tr>
                             <td>
                               <h2>Schedule</h2>
-                              <dl class="horizontal collapse-bottom">
-                                <dt>Begins At:</dt>
-                                <dd>Jul 22, 21:00 UTC</dd>
-                                <dt>Duration:</dt>
-                                <dd>1 hour</dd>
-                              </dl>
+                              <table class="attributes" width="100%" cellpadding="0" cellspacing="0" role="presentation">
+                                <tr>
+                                  <td class="attributes_container">
+                                    <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
+                                      <tr>
+                                        <td class="attributes_item name"><strong>Begins At:</strong></td>
+                                        <td class="attributes_item description">Jul 22, 21:00 UTC</td>
+                                      </tr>
+                                      <tr>
+                                        <td class="attributes_item name"><strong>Duration:</strong></td>
+                                        <td class="attributes_item description">1 hour</td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
                             </td>
                           </tr>
                         </table>

@@ -104,37 +104,6 @@
       border: 1px solid #9CA3AF;
       border-radius: 4px;
     }
-    
-    dl {
-      margin: .4em 0 1.1875em;
-    }
-    
-    dl dt {
-      font-weight: bold;
-      margin-bottom: 8px;
-    }
-    
-    dl dd {
-      margin-left: 0;
-    }
-    
-    dl dd:not(:last-child) {
-      margin-bottom: 16px;
-    }
-    
-    dl.horizontal dt {
-      float: left;
-      clear: left;
-      width: 100px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-    
-    dl.horizontal dd {
-      margin-left: 110px;
-      margin-bottom: 8px;
-    }
     /* Utilities ------------------------------ */
     
     .align-right {
@@ -205,6 +174,16 @@
     
     .attributes_item {
       padding: 0;
+      padding-bottom: 8px;
+    }
+    
+    .attributes_item.name {
+      white-space: nowrap;
+      padding-right: 32px;
+    }
+    
+    .attributes_item.description {
+      width: 100%;
     }
     /* Related Items ------------------------------ */
     

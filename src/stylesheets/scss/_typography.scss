@@ -45,35 +45,3 @@ p.sub {
     }
   }
 }
-
-dl {
-  margin: .4em 0 1.1875em;
-
-  dt { 
-    font-weight: bold; 
-    margin-bottom: 8px;
-  }
-  dd {
-    margin-left: 0;
-
-    &:not(:last-child) {
-        margin-bottom: 16px;
-    }
-  }
-
-  &.horizontal {
-    dt {
-        float: left;
-        clear: left;
-        width: 100px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
-
-    dd {
-        margin-left: 110px;
-        margin-bottom: 8px;
-    }
-  }
-}
