@@ -29,9 +29,9 @@ Duration:
 Affected Components
 -------------------
 
-* Application
-* Database
-* REST API
+Application
+Database
+REST API
 
 View the full incident → ( https://f7ea7fba.sorryapp.com/ )
 

@@ -29,19 +29,3 @@ p, ul, ol, blockquote {
 p.sub {
   font-size: 14px;
 }
-
-.list {
-  &.list-components {
-    display: inline-block;
-    list-style: none;
-    padding: 0px;
-
-    li { 
-      display: inline-block;
-      margin: 0 8px 8px 0;
-      padding: 4px 8px;
-      border: 1px solid $c-slate-400;
-      border-radius: 4px; 
-    }
-  }
-}
