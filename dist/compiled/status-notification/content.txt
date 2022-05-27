@@ -21,6 +21,8 @@ Schedule
 
 Begins At: Jul 22, 21:00 UTC
 
+End At: Jul 22, 22:00 UTC
+
 Duration: 1 hour
 
 -------------------
