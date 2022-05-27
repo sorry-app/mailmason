@@ -1,7 +1,7 @@
 {
   "postmark": {
     "from": "development@sorryapp.com",
-    "to": "robert+mailmason@sorryapp.com",
+    "to": "robert@sorryapp.onmicrosoft.com",
     "subject": "MailMason Test"
   },
   "strings": {
