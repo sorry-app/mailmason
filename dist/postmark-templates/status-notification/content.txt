@@ -15,11 +15,9 @@ Posted 28 days ago. Jun 24, 2021 - 12:48 UTC
 Schedule
 --------
 
-Begins At:
-Jul 22, 21:00 UTC
+Begins At: Jul 22, 21:00 UTC
 
-Duration:
-1 hour
+Duration: 1 hour
 
 -------------------
 Affected Components
