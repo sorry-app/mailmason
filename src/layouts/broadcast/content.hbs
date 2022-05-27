@@ -29,11 +29,8 @@
           <tr>
             <td class="email-masthead">
               <a href="{{ product_url }}" class="f-fallback email-masthead_name">
-                {{#if use_images }}
-                  <img src="{{ images_url }}{{ logo_file }}" alt="{{ product_name }}" width="{{ logo_width }}">
-                {{else}}
-                  {{ product_name }}
-                {{/if}}
+                <img class="logo-light" src="https://s3.eu-west-1.amazonaws.com/brand.sorryapp.com/latest/logos/logo-black-medium.png" alt="{{ product_name }}" height="32">
+                <img class="logo-dark" src="https://s3.eu-west-1.amazonaws.com/brand.sorryapp.com/latest/logos/logo-white-medium.png" alt="{{ product_name }}" height="32">
               </a>
             </td>
           </tr>
@@ -65,7 +62,6 @@
               </table>
             </td>
           </tr>
-
         </table>
       </td>
     </tr>

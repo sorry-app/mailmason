@@ -41,6 +41,20 @@
       opacity: 0;
       overflow: hidden;
     }
+    
+    img.logo-dark {
+      display: none;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      img.logo,
+      img.logo-light {
+        display: none;
+      }
+      img.logo-dark {
+        display: inline;
+      }
+    }
     /* Type ------------------------------ */
     
     body,
@@ -161,15 +175,6 @@
     .attributes_item {
       padding: 0;
       padding-bottom: 8px;
-    }
-    
-    .attributes_item.name {
-      white-space: nowrap;
-      padding-right: 32px;
-    }
-    
-    .attributes_item.description {
-      width: 100%;
     }
     /* Related Items ------------------------------ */
     
@@ -512,8 +517,9 @@
             <tr>
               <td class="email-masthead">
                 <a href="https://www.sorryapp.com" class="f-fallback email-masthead_name">
-                  Sorry™
-              </a>
+                  <img class="logo-light" src="https://s3.eu-west-1.amazonaws.com/brand.sorryapp.com/latest/logos/logo-black-medium.png" alt="Sorry™" height="32">
+                  <img class="logo-dark" src="https://s3.eu-west-1.amazonaws.com/brand.sorryapp.com/latest/logos/logo-white-medium.png" alt="Sorry™" height="32">
+                </a>
               </td>
             </tr>
             <!-- Email Body -->

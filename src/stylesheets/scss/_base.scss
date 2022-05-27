@@ -30,3 +30,10 @@ td {
   opacity: 0;
   overflow: hidden;
 }
+
+img.logo-dark { display: none; }
+
+@media (prefers-color-scheme: dark) {
+    img.logo, img.logo-light { display: none; }
+    img.logo-dark { display: inline; }
+}
